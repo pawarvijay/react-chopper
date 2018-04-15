@@ -14,7 +14,7 @@ class WithSetState extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ firstname: "chopper changed" });
+    this.setState({ firstname: "chopper changed kk" });
   }
 }
 
