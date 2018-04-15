@@ -1,7 +1,7 @@
 const config = {
     mode : 'production',
     target: 'web',
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
       filename: '[name].bundle.js',
       path: __dirname + '/build',

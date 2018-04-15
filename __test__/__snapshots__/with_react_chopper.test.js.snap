@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component using react-chopper instead of setstate 1`] = `
+<div>
+  Hello react 
+  chopper changed
+</div>
+`;
