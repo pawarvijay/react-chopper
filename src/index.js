@@ -27,11 +27,3 @@ export default (target, thees) => {
   
     return proxify(target, []);
   }
-
-// function sum(a, b) {
-//   return a + b;
-// }
-
-// export default sum
-// module.exports = sum;
-
