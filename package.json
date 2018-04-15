@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test-watch": "jest --watch",
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",    
+    "test-watch": "jest --watch",    
+    "test-coverage": "jest --coverage"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
