@@ -16,8 +16,8 @@
     "webpack": "^4.5.0"
   },
   "name": "react-chopper",
-  "version": "1.0.2",
-  "main": "index.js",
+  "version": "1.0.9",
+  "main": "./src/index.js",
   "repository": "https://github.com/pawarvijay/react-chopper.git",
   "author": "vijay",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "react": "^16.3.1",
+    "react-chopper": "^1.0.7",
     "react-dom": "^16.3.1",
     "webpack-cli": "^2.0.14"
   }
