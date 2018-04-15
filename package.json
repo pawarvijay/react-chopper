@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "jest --watch",
+    "test-watch": "jest --watch",
+    "test": "jest",
     "build": "webpack"
   },
   "devDependencies": {
