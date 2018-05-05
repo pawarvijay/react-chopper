@@ -2,16 +2,12 @@
 react-chopper
 <br>
 <img src="helicopter.svg" alt="downshift logo" title="downshift logo" width="300" height="200"/>
- 
-
 </h1>
 
-
-
+<h3 align="center">Two way binding in react with javascript proxies</h3>
 
 [![CircleCI status](https://circleci.com/gh/pawarvijay/react-chopper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/pawarvijay/react-chopper/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
-
 
 ## TODO
 
