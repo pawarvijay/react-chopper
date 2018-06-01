@@ -14,8 +14,6 @@ react-chopper
 
 ## [Example Live](https://stackblitz.com/edit/simple-react-chopper)
 
-We have several examples [on the website](https://reactjs.org/). Here is the first one to get you started:
-
 ```jsx
 class App extends Component {
   constructor(props) {
