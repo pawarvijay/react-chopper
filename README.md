@@ -12,7 +12,7 @@ react-chopper
 
 
 
-## [Example Live](https://stackblitz.com/edit/simple-react-chopper) , [Complex Example](https://stackblitz.com/edit/simple-react-chopper)
+## [Example Live](https://stackblitz.com/edit/simple-react-chopper) ,                [Complex Example](https://stackblitz.com/edit/simple-react-chopper)
  Below code does not contains ```this.setState```
  
 ```jsx
