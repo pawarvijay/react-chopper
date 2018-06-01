@@ -15,6 +15,10 @@ react-chopper
 ## [Example Live](https://stackblitz.com/edit/simple-react-chopper)
 
 ```jsx
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Rcp from 'react-chopper';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -26,13 +30,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <input onChange={e => this.modal.name = e.target.value} />
-        <p> Bang Bang {this.modal.name} </p>
-        <input value={this.modal.name} />
+        <input
+          name={this.modal.name}
+          onChange={e => this.modal.name = e.target.value} />
+        <p>
+          Bang Bang {this.modal.name}
+        </p>
       </div>
     );
   }
 }
+
+render(<App />, document.getElementById('root'));
+
 ```
 
 ## TODO
