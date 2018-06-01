@@ -12,7 +12,7 @@ react-chopper
 
 
 
-## [Example Live](https://stackblitz.com/edit/simple-react-chopper)
+## [Example Live](https://stackblitz.com/edit/simple-react-chopper) , [Complex Example](https://stackblitz.com/edit/simple-react-chopper)
  Below code does not contains ```this.setState```
  
 ```jsx
@@ -45,8 +45,6 @@ class App extends Component {
 render(<App />, document.getElementById('root'));
 
 ```
-
-## [Complex Example](https://stackblitz.com/edit/simple-react-chopper)
 
 ## TODO
 
