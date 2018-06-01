@@ -53,7 +53,7 @@ render(<App />, document.getElementById('root'));
 - [x] Add coveralls support
 - [x] A simple demo sandbox app made from `react-chopper`
 - [x] A complex demo sandbox app made from `react-chopper`
-- [ ] Documentation about
+- [x] Documentation about
 - [x] Testcase that uses `react-chopper` lib from npm
 - [ ] Write some more Complex testcase scenarios for testing
 - [ ] Use `rollupjs` instead of `webpack`
