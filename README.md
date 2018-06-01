@@ -10,7 +10,11 @@ react-chopper
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
 
 
-[Example Live](https://stackblitz.com/edit/simple-react-chopper)
+
+
+## [Example Live](https://stackblitz.com/edit/simple-react-chopper)
+
+We have several examples [on the website](https://reactjs.org/). Here is the first one to get you started:
 
 ```jsx
 class App extends Component {
