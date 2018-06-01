@@ -23,16 +23,12 @@ class App extends Component {
     };
     this.modal = Rcp(this.state, this);
   }
-
   render() {
     return (
       <div>
-        <input
-          name={this.modal.name}
-          onChange={e => this.modal.name = e.target.value} />
-        <p>
-          Bang Bang {this.modal.name}
-        </p>
+        <input onChange={e => this.modal.name = e.target.value} />
+        <p> Bang Bang {this.modal.name} </p>
+        <input value={this.modal.name} />
       </div>
     );
   }
