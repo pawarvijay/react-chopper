@@ -11,7 +11,8 @@ react-chopper
 
 
 [Example Live](https://stackblitz.com/edit/simple-react-chopper)
-```
+
+```jsx
 class App extends Component {
   constructor(props) {
     super(props);
