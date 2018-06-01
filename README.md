@@ -10,6 +10,32 @@ react-chopper
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
 
 
+[Example Live](https://stackblitz.com/edit/simple-react-chopper)
+```
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'React'
+    };
+    this.modal = Rcp(this.state, this);
+  }
+
+  render() {
+    return (
+      <div>
+        <input
+          name={this.modal.name}
+          onChange={e => this.modal.name = e.target.value} />
+        <p>
+          Bang Bang {this.modal.name}
+        </p>
+      </div>
+    );
+  }
+}
+```
+
 ## TODO
 
 - [x] Write initial testcases
