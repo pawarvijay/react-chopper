@@ -46,6 +46,8 @@ render(<App />, document.getElementById('root'));
 
 ```
 
+## [Complex Example](https://stackblitz.com/edit/simple-react-chopper)
+
 ## TODO
 
 - [x] Write initial testcases
