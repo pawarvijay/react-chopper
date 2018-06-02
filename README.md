@@ -60,7 +60,7 @@ Make every develop know whats under the hood its Javascript Proxies
 - [x] Add coveralls support
 - [x] A Simple demo sandbox app made from `react-chopper`
 - [x] A Complex computation demo sandbox app made from `react-chopper`
-- [ ] A Super complex computation demo sandbox app made from `react-chopper`
+- [x] A Super complex computation demo sandbox app made from `react-chopper`
 - [x] Documentation about
 - [x] Testcase that uses `react-chopper` lib from npm
 - [ ] Write some more Complex testcase scenarios for testing
