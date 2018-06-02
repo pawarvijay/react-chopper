@@ -9,9 +9,6 @@ react-chopper
 [![CircleCI status](https://circleci.com/gh/pawarvijay/react-chopper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/pawarvijay/react-chopper/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
 
-
-
-
 ## [Example Live](https://stackblitz.com/edit/simple-react-chopper) ,                [Complex Example](https://stackblitz.com/edit/react-pet-project-ktz822)
  Below code does not contains ```this.setState```
  
@@ -45,6 +42,15 @@ class App extends Component {
 render(<App />, document.getElementById('root'));
 
 ```
+
+## Aim 
+
+Not to develop develop insecurity by making it higherorder component and wrapping whole react component
+
+Make every develop know whats under the hood its Javascript Proxies 
+
+
+
 
 ## TODO
 
