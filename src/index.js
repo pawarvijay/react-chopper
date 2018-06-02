@@ -1,4 +1,4 @@
-export const ReactChopper = (target, thees) => {
+export const ReactChopper = (target, componentReference) => {
   const preproxy = new WeakMap();
 
   const makeHandler = path => {
@@ -8,7 +8,7 @@ export const ReactChopper = (target, thees) => {
           value = proxify(value, [...path, key]);
         }
         target[key] = value;
-        thees.setState({ [key]: value });
+        componentReference.setState({ [key]: value });
         return true;
       }
     };
