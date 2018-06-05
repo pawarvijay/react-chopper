@@ -1,7 +1,7 @@
 <h1 align="center">
 react-chopper
 <br>
-<img src="helicopter.svg" alt="downshift logo" title="downshift logo" width="300" height="200"/>
+<img src="https://raw.githubusercontent.com/pawarvijay/react-chopper/master/helicopter.svg?sanitize=true" width="300" height="200"/>
 </h1>
 
 <h3 align="center">Two way binding in react with javascript proxies</h3>
