@@ -50,7 +50,7 @@ Not to develop insecurity by making it higherorder component and wrapping whole 
 
 Make every develop know whats under the hood its Javascript Proxies.
 
-It will be doing only task only , is to watch any changes on target object and do setState underthehood.
+It will be doing one task only , is to watch any changes on target object and do setState underthehood.
 
 This lib won't be doing multiple task like other react libs do
 Eg : redux-form , react-form , react-validation ect .. developers pickup these libs for validation and land up doing state management , which is filled up with its limitations and ultimately creating spagetti code. 
