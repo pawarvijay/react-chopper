@@ -4,7 +4,7 @@ react-chopper
 <img src="helicopter.svg" alt="downshift logo" title="downshift logo" width="300" height="200"/>
 </h1>
 
-<h3 align="center">Two way binding in react with javascript proxies</h3>
+<h3 align="center">Two way binding in react javascript with javascript proxies</h3>
 
 [![CircleCI status](https://circleci.com/gh/pawarvijay/react-chopper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/pawarvijay/react-chopper/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
@@ -16,7 +16,7 @@ react-chopper
 ```jsx
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Rcp from 'react-chopper';
+import ReactChopper from 'react-chopper';
 
 class App extends Component {
   constructor(props) {
@@ -24,7 +24,7 @@ class App extends Component {
     this.state = {
       name: 'React'
     };
-    this.modal = Rcp(this.state, this);
+    this.modal = ReactChopper(this.state, this);
   }
   render() {
     return (
@@ -46,7 +46,7 @@ render(<App />, document.getElementById('root'));
 
 ## Aim 
 
-Not to develop develop insecurity by making it higherorder component and wrapping whole react component
+Not to develop insecurity by making it higherorder component and wrapping whole react component
 
 Make every develop know whats under the hood its Javascript Proxies 
 
