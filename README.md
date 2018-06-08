@@ -5,6 +5,10 @@ react-chopper
 </h1>
 
 <h3 align="center">Two way binding in react with javascript proxies</h3>
+<h4 align="center">No need to remember this.setState()</h4>
+<h4 align="center">No need to manage state in redux</h4>
+<h4 align="center">No need to use other libraries for state management</h4>
+<h4 align="center">Use reactjs almost like angular</h4>
 
 [![CircleCI status](https://circleci.com/gh/pawarvijay/react-chopper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/pawarvijay/react-chopper/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/pawarvijay/react-chopper/badge.svg?branch=master&style=flat)](https://coveralls.io/github/pawarvijay/react-chopper?branch=master)
@@ -42,7 +46,11 @@ class App extends Component {
 
 render(<App />, document.getElementById('root'));
 
+
 ```
+
+### [Medium Article - two way binding in reactjs](https://medium.com/@vijay777pawar/two-way-binding-in-reactjs-made-possible-react-chopper-900b8f737a24)
+
 
 ## Aim 
 
