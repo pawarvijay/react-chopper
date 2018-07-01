@@ -46,7 +46,7 @@ class App extends Component {
 
 render(<App />, document.getElementById('root'));
 
-
+//Note : after using this.modal you should not use this.state
 ```
 
 ### [Medium Article - two way binding in reactjs](https://medium.com/@vijay777pawar/two-way-binding-in-reactjs-made-possible-react-chopper-900b8f737a24)
