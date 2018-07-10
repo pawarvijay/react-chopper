@@ -15,6 +15,8 @@ react-chopper
 
 ## [Example Live](https://stackblitz.com/edit/simple-react-chopper) ,  [Complex example](https://stackblitz.com/edit/complex-react-chopper),  [Super complex example](https://stackblitz.com/edit/super-complex-react-chopper)
 
+Note . : Currently Dosen't work with React-native , but works with reactjs webapps .
+
  Below code does not contains ```this.setState```
  
 ```jsx
