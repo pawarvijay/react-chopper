@@ -80,3 +80,4 @@ Eg : redux-form , react-form , react-validation ect .. developers pickup these l
 - [ ] Create seperate `develop` for all developer experiments
 - [ ] Setup mechanism to push tested code to `master branch` 
 - [ ] Deploy package on npm from `circleci` from `master branch`
+- [ ] Add debug mode for debuging , watch changes purpose
