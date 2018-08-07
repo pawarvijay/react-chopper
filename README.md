@@ -6,7 +6,7 @@ react-chopper
 
 <h3 align="center">Two way binding in react with javascript proxies</h3>
 <h4 align="center">No need to remember this.setState()</h4>
-<h4 align="center">No need to manage state in redux</h4>
+<h4 align="center">No need to manage state in redux(in most cases)</h4>
 <h4 align="center">No need to use other libraries for state management</h4>
 <h4 align="center">Unidirectional Flow under the hood</h4>
 <h4 align="center">Use reactjs almost like angular</h4>
