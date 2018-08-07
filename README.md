@@ -8,6 +8,7 @@ react-chopper
 <h4 align="center">No need to remember this.setState()</h4>
 <h4 align="center">No need to manage state in redux</h4>
 <h4 align="center">No need to use other libraries for state management</h4>
+<h4 align="center">Unidirectional Flow under the hood</h4>
 <h4 align="center">Use reactjs almost like angular</h4>
 
 [![CircleCI status](https://circleci.com/gh/pawarvijay/react-chopper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/pawarvijay/react-chopper/tree/master)
