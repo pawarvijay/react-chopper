@@ -4,7 +4,7 @@ react-chopper
 <img src="https://raw.githubusercontent.com/pawarvijay/react-chopper/master/helicopter.svg?sanitize=true" width="300" height="200"/>
 </h1>
 
-<h3 align="center">Two way binding in react with javascript proxies</h3>
+<h3 align="center">Code without setState</h3>
 <h4 align="center">No need to remember this.setState()</h4>
 <h4 align="center">No need to manage state in redux(use only for global data like global user info , global ui loader)</h4>
 <h4 align="center">No need to use other libraries for state management</h4>
