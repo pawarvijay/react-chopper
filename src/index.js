@@ -35,22 +35,11 @@ export const ReactChopper = (target, componentReference) => {
   const isNotAnEmptyObject = (data) => isObject(data) && Object.keys(data).length > 0;
 
   /**
-   * function `isArrayOfObject`.
-   *
-   * Returns true if `data` is an array of object/objects, false otherwise.
-   */
-  const isArrayOfObject = (data) => {
-    let isArray = Array.isArray(data);
-    if (isArray && data.length > 0) return (data.filter(item => isObject(item)).length === data.length);
-    else return false;
-  }
-
-  /**
    * function `isProxifiable`.
    *
    * Returns true if `data` can be isProxifiable, false otherwise.
    */
-  const isProxifiable = (data) => ((data instanceof Array && isArrayOfObject(data)) || data instanceof Object && isNotAnEmptyObject(data)) ? true : false;
+  const isProxifiable = (data) => ((data instanceof Array) || data instanceof Object && isNotAnEmptyObject(data)) ? true : false;
 
   /**
    * function `proxify`.
