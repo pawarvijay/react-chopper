@@ -29,7 +29,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "react": "^16.3.1",
     "react-chopper": "^1.0.7",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.3"
   },
   "name": "react-chopper",
   "version": "1.1.8",
