@@ -13,6 +13,9 @@ export const ReactChopper = (target, componentReference) => {
         if (typeof value === "object") {
           value = proxify(value, [...path, key]);
         }
+        if (!Object.prototype.hasOwnProperty.call(target, key)) {
+          console.warn("You are trying to set a new property \"" + key + "\" to your proxified object which was not present in the beginning. This will not work in polyfilled browsers as properties need to be sealed.");
+        }
         target[key] = value;
         componentReference.setState({ [key]: value });
         return true;
@@ -53,6 +56,10 @@ export const ReactChopper = (target, componentReference) => {
       }
     }
     let p = new Proxy(obj, makeHandler(path));
+    if (typeof Object.seal === "function") {
+      Object.seal(obj);
+      Object.seal(p);
+    }
     preproxy.set(p, obj);
     return p;
   };
